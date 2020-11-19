@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name sally-rescue)(type Legacy)(uri ${KIPRJMOD}/sally-rescue.lib)(options "")(descr ""))
+  (lib (name sally)(type Legacy)(uri ${KIPRJMOD}/sally.lib)(options "")(descr ""))
+)

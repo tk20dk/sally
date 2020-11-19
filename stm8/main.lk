@@ -1,0 +1,23 @@
+-muwx
+-i main.ihx
+-Y
+-b HOME = 0x8000
+-b DATA = 0x0001
+-b SSEG = 0xffffffff
+-k spl/stm8l15x
+-k /usr/local/bin/../share/sdcc/lib/stm8
+-k /usr/local/share/sdcc/lib/stm8
+-l spl
+-l stm8
+obj/main.rel
+obj/i2c.rel
+obj/spi.rel
+obj/adc.rel
+obj/nvdata.rel
+obj/si4432.rel
+obj/si7021.rel
+obj/bh1750.rel
+obj/stm8l15x_it.rel
+obj/application.rel
+
+-e
